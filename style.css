@@ -1,0 +1,64 @@
+body {
+    background-color: rgba(178, 8, 190, 0.98);
+}
+
+.content-box {
+    font-size: 3.5rem;
+    text-align: center;
+    border: 4px solid blue;
+    box-shadow: 0 20px 20px rgb(247, 5, 174);
+    transition: all 1s ease;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.content-box:hover {
+    box-shadow: 0 60px 40px rgb(247, 5, 174);
+    background-color: lightskyblue;
+}
+
+
+.names {
+    font-size: 4.5rem;
+}
+
+.wishes {
+    font-size: 4rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    border: 15px solid rgb(255, 255, 255);
+    transition: all 1s;
+}
+
+.image:hover {
+    transform: rotate(360deg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.monika:hover {
+    font-size: larger;
+    color: yellowgreen;
+}
+
+.michal:hover {
+    font-size: larger;
+    color: blue;
+}
+
+.Adam:hover {
+    font-size: larger;
+    color: red;
+}
+
+
+body {
+    box-shadow: inset 0px 0px 150px 30px white;
+    height: 100%;
+}
