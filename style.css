@@ -53,7 +53,7 @@ body {
 }
 
 .Adam:hover {
-    font-size: larger;
+    font: size 2rem;
     color: red;
 }
 
